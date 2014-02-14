@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF9DDA7C18ADAE20004DE974 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9DDA7B18ADAE20004DE974 /* Foundation.framework */; };
+		BF9DDA7E18ADAE20004DE974 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9DDA7D18ADAE20004DE974 /* CoreGraphics.framework */; };
+		BF9DDA8018ADAE20004DE974 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9DDA7F18ADAE20004DE974 /* UIKit.framework */; };
+		BF9DDA8618ADAE20004DE974 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF9DDA8418ADAE20004DE974 /* InfoPlist.strings */; };
+		BF9DDA8818ADAE20004DE974 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9DDA8718ADAE20004DE974 /* main.m */; };
+		BF9DDA8C18ADAE20004DE974 /* ARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9DDA8B18ADAE20004DE974 /* ARAppDelegate.m */; };
+		BF9DDA8F18ADAE20004DE974 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9DDA8D18ADAE20004DE974 /* Main_iPhone.storyboard */; };
+		BF9DDA9218ADAE20004DE974 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9DDA9018ADAE20004DE974 /* Main_iPad.storyboard */; };
+		BF9DDA9518ADAE20004DE974 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9DDA9418ADAE20004DE974 /* ARViewController.m */; };
+		BF9DDA9718ADAE20004DE974 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9DDA9618ADAE20004DE974 /* Images.xcassets */; };
+		BF9DDA9E18ADAE20004DE974 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9DDA9D18ADAE20004DE974 /* XCTest.framework */; };
+		BF9DDA9F18ADAE20004DE974 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9DDA7B18ADAE20004DE974 /* Foundation.framework */; };
+		BF9DDAA018ADAE20004DE974 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9DDA7F18ADAE20004DE974 /* UIKit.framework */; };
+		BF9DDAA818ADAE20004DE974 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF9DDAA618ADAE20004DE974 /* InfoPlist.strings */; };
+		BF9DDAAA18ADAE20004DE974 /* ARLineChartDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9DDAA918ADAE20004DE974 /* ARLineChartDemoTests.m */; };
+		BF9DDABA18ADAE56004DE974 /* ARLineChartCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9DDAB518ADAE56004DE974 /* ARLineChartCommon.m */; };
+		BF9DDABB18ADAE56004DE974 /* ARLineChartContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9DDAB718ADAE56004DE974 /* ARLineChartContentView.m */; };
+		BF9DDABC18ADAE56004DE974 /* ARLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9DDAB918ADAE56004DE974 /* ARLineChartView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF9DDAA118ADAE20004DE974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF9DDA7018ADAE20004DE974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9DDA7718ADAE20004DE974;
+			remoteInfo = ARLineChartDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF9DDA7818ADAE20004DE974 /* ARLineChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARLineChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9DDA7B18ADAE20004DE974 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF9DDA7D18ADAE20004DE974 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF9DDA7F18ADAE20004DE974 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF9DDA8318ADAE20004DE974 /* ARLineChartDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARLineChartDemo-Info.plist"; sourceTree = "<group>"; };
+		BF9DDA8518ADAE20004DE974 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF9DDA8718ADAE20004DE974 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF9DDA8918ADAE20004DE974 /* ARLineChartDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARLineChartDemo-Prefix.pch"; sourceTree = "<group>"; };
+		BF9DDA8A18ADAE20004DE974 /* ARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAppDelegate.h; sourceTree = "<group>"; };
+		BF9DDA8B18ADAE20004DE974 /* ARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAppDelegate.m; sourceTree = "<group>"; };
+		BF9DDA8E18ADAE20004DE974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		BF9DDA9118ADAE20004DE974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		BF9DDA9318ADAE20004DE974 /* ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		BF9DDA9418ADAE20004DE974 /* ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		BF9DDA9618ADAE20004DE974 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF9DDA9C18ADAE20004DE974 /* ARLineChartDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARLineChartDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9DDA9D18ADAE20004DE974 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BF9DDAA518ADAE20004DE974 /* ARLineChartDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARLineChartDemoTests-Info.plist"; sourceTree = "<group>"; };
+		BF9DDAA718ADAE20004DE974 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF9DDAA918ADAE20004DE974 /* ARLineChartDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARLineChartDemoTests.m; sourceTree = "<group>"; };
+		BF9DDAB418ADAE56004DE974 /* ARLineChartCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARLineChartCommon.h; sourceTree = "<group>"; };
+		BF9DDAB518ADAE56004DE974 /* ARLineChartCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARLineChartCommon.m; sourceTree = "<group>"; };
+		BF9DDAB618ADAE56004DE974 /* ARLineChartContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARLineChartContentView.h; sourceTree = "<group>"; };
+		BF9DDAB718ADAE56004DE974 /* ARLineChartContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARLineChartContentView.m; sourceTree = "<group>"; };
+		BF9DDAB818ADAE56004DE974 /* ARLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARLineChartView.h; sourceTree = "<group>"; };
+		BF9DDAB918ADAE56004DE974 /* ARLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARLineChartView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF9DDA7518ADAE20004DE974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9DDA7E18ADAE20004DE974 /* CoreGraphics.framework in Frameworks */,
+				BF9DDA8018ADAE20004DE974 /* UIKit.framework in Frameworks */,
+				BF9DDA7C18ADAE20004DE974 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9DDA9918ADAE20004DE974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9DDA9E18ADAE20004DE974 /* XCTest.framework in Frameworks */,
+				BF9DDAA018ADAE20004DE974 /* UIKit.framework in Frameworks */,
+				BF9DDA9F18ADAE20004DE974 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF9DDA6F18ADAE20004DE974 = {
+			isa = PBXGroup;
+			children = (
+				BF9DDA8118ADAE20004DE974 /* ARLineChartDemo */,
+				BF9DDAA318ADAE20004DE974 /* ARLineChartDemoTests */,
+				BF9DDA7A18ADAE20004DE974 /* Frameworks */,
+				BF9DDA7918ADAE20004DE974 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF9DDA7918ADAE20004DE974 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF9DDA7818ADAE20004DE974 /* ARLineChartDemo.app */,
+				BF9DDA9C18ADAE20004DE974 /* ARLineChartDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF9DDA7A18ADAE20004DE974 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF9DDA7B18ADAE20004DE974 /* Foundation.framework */,
+				BF9DDA7D18ADAE20004DE974 /* CoreGraphics.framework */,
+				BF9DDA7F18ADAE20004DE974 /* UIKit.framework */,
+				BF9DDA9D18ADAE20004DE974 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF9DDA8118ADAE20004DE974 /* ARLineChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BF9DDAB318ADAE56004DE974 /* ARLineChart */,
+				BF9DDA8A18ADAE20004DE974 /* ARAppDelegate.h */,
+				BF9DDA8B18ADAE20004DE974 /* ARAppDelegate.m */,
+				BF9DDA8D18ADAE20004DE974 /* Main_iPhone.storyboard */,
+				BF9DDA9018ADAE20004DE974 /* Main_iPad.storyboard */,
+				BF9DDA9318ADAE20004DE974 /* ARViewController.h */,
+				BF9DDA9418ADAE20004DE974 /* ARViewController.m */,
+				BF9DDA9618ADAE20004DE974 /* Images.xcassets */,
+				BF9DDA8218ADAE20004DE974 /* Supporting Files */,
+			);
+			path = ARLineChartDemo;
+			sourceTree = "<group>";
+		};
+		BF9DDA8218ADAE20004DE974 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF9DDA8318ADAE20004DE974 /* ARLineChartDemo-Info.plist */,
+				BF9DDA8418ADAE20004DE974 /* InfoPlist.strings */,
+				BF9DDA8718ADAE20004DE974 /* main.m */,
+				BF9DDA8918ADAE20004DE974 /* ARLineChartDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF9DDAA318ADAE20004DE974 /* ARLineChartDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF9DDAA918ADAE20004DE974 /* ARLineChartDemoTests.m */,
+				BF9DDAA418ADAE20004DE974 /* Supporting Files */,
+			);
+			path = ARLineChartDemoTests;
+			sourceTree = "<group>";
+		};
+		BF9DDAA418ADAE20004DE974 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF9DDAA518ADAE20004DE974 /* ARLineChartDemoTests-Info.plist */,
+				BF9DDAA618ADAE20004DE974 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF9DDAB318ADAE56004DE974 /* ARLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				BF9DDAB418ADAE56004DE974 /* ARLineChartCommon.h */,
+				BF9DDAB518ADAE56004DE974 /* ARLineChartCommon.m */,
+				BF9DDAB618ADAE56004DE974 /* ARLineChartContentView.h */,
+				BF9DDAB718ADAE56004DE974 /* ARLineChartContentView.m */,
+				BF9DDAB818ADAE56004DE974 /* ARLineChartView.h */,
+				BF9DDAB918ADAE56004DE974 /* ARLineChartView.m */,
+			);
+			path = ARLineChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF9DDA7718ADAE20004DE974 /* ARLineChartDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9DDAAD18ADAE20004DE974 /* Build configuration list for PBXNativeTarget "ARLineChartDemo" */;
+			buildPhases = (
+				BF9DDA7418ADAE20004DE974 /* Sources */,
+				BF9DDA7518ADAE20004DE974 /* Frameworks */,
+				BF9DDA7618ADAE20004DE974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARLineChartDemo;
+			productName = ARLineChartDemo;
+			productReference = BF9DDA7818ADAE20004DE974 /* ARLineChartDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF9DDA9B18ADAE20004DE974 /* ARLineChartDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9DDAB018ADAE20004DE974 /* Build configuration list for PBXNativeTarget "ARLineChartDemoTests" */;
+			buildPhases = (
+				BF9DDA9818ADAE20004DE974 /* Sources */,
+				BF9DDA9918ADAE20004DE974 /* Frameworks */,
+				BF9DDA9A18ADAE20004DE974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF9DDAA218ADAE20004DE974 /* PBXTargetDependency */,
+			);
+			name = ARLineChartDemoTests;
+			productName = ARLineChartDemoTests;
+			productReference = BF9DDA9C18ADAE20004DE974 /* ARLineChartDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF9DDA7018ADAE20004DE974 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AR;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Arwer Software";
+				TargetAttributes = {
+					BF9DDA9B18ADAE20004DE974 = {
+						TestTargetID = BF9DDA7718ADAE20004DE974;
+					};
+				};
+			};
+			buildConfigurationList = BF9DDA7318ADAE20004DE974 /* Build configuration list for PBXProject "ARLineChartDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF9DDA6F18ADAE20004DE974;
+			productRefGroup = BF9DDA7918ADAE20004DE974 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF9DDA7718ADAE20004DE974 /* ARLineChartDemo */,
+				BF9DDA9B18ADAE20004DE974 /* ARLineChartDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF9DDA7618ADAE20004DE974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9DDA9218ADAE20004DE974 /* Main_iPad.storyboard in Resources */,
+				BF9DDA9718ADAE20004DE974 /* Images.xcassets in Resources */,
+				BF9DDA8F18ADAE20004DE974 /* Main_iPhone.storyboard in Resources */,
+				BF9DDA8618ADAE20004DE974 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9DDA9A18ADAE20004DE974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9DDAA818ADAE20004DE974 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF9DDA7418ADAE20004DE974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9DDA8818ADAE20004DE974 /* main.m in Sources */,
+				BF9DDA9518ADAE20004DE974 /* ARViewController.m in Sources */,
+				BF9DDA8C18ADAE20004DE974 /* ARAppDelegate.m in Sources */,
+				BF9DDABC18ADAE56004DE974 /* ARLineChartView.m in Sources */,
+				BF9DDABB18ADAE56004DE974 /* ARLineChartContentView.m in Sources */,
+				BF9DDABA18ADAE56004DE974 /* ARLineChartCommon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9DDA9818ADAE20004DE974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9DDAAA18ADAE20004DE974 /* ARLineChartDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF9DDAA218ADAE20004DE974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF9DDA7718ADAE20004DE974 /* ARLineChartDemo */;
+			targetProxy = BF9DDAA118ADAE20004DE974 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF9DDA8418ADAE20004DE974 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9DDA8518ADAE20004DE974 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF9DDA8D18ADAE20004DE974 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9DDA8E18ADAE20004DE974 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BF9DDA9018ADAE20004DE974 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9DDA9118ADAE20004DE974 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BF9DDAA618ADAE20004DE974 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9DDAA718ADAE20004DE974 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF9DDAAB18ADAE20004DE974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF9DDAAC18ADAE20004DE974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF9DDAAE18ADAE20004DE974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARLineChartDemo/ARLineChartDemo-Prefix.pch";
+				INFOPLIST_FILE = "ARLineChartDemo/ARLineChartDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF9DDAAF18ADAE20004DE974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARLineChartDemo/ARLineChartDemo-Prefix.pch";
+				INFOPLIST_FILE = "ARLineChartDemo/ARLineChartDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BF9DDAB118ADAE20004DE974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARLineChartDemo.app/ARLineChartDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARLineChartDemo/ARLineChartDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ARLineChartDemoTests/ARLineChartDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BF9DDAB218ADAE20004DE974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARLineChartDemo.app/ARLineChartDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARLineChartDemo/ARLineChartDemo-Prefix.pch";
+				INFOPLIST_FILE = "ARLineChartDemoTests/ARLineChartDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF9DDA7318ADAE20004DE974 /* Build configuration list for PBXProject "ARLineChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9DDAAB18ADAE20004DE974 /* Debug */,
+				BF9DDAAC18ADAE20004DE974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9DDAAD18ADAE20004DE974 /* Build configuration list for PBXNativeTarget "ARLineChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9DDAAE18ADAE20004DE974 /* Debug */,
+				BF9DDAAF18ADAE20004DE974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF9DDAB018ADAE20004DE974 /* Build configuration list for PBXNativeTarget "ARLineChartDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9DDAB118ADAE20004DE974 /* Debug */,
+				BF9DDAB218ADAE20004DE974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF9DDA7018ADAE20004DE974 /* Project object */;
+}
