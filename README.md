@@ -1,16 +1,16 @@
-ARLineChar
-==========
+ARLineChart
+===========
 
-ARLineChar is a line char view on iOS , written using Objective-C . There are scenarios for applications requiring dual- Y axis.
+ARLineChart is a line char view on iOS , written using Objective-C . There are scenarios for applications requiring dual- Y axis.
 x -axis and y-axis can zoom in and out , you can scroll , double-click can restore the original size.
 
-ARLineChar是一个iOS的折线图，使用Objective-C编写。适用于需要有双Y轴的应用场景。
+ARLineChart是一个iOS的折线图，使用Objective-C编写。适用于需要有双Y轴的应用场景。
 x轴和y轴可以放大和缩小，可以滚动，双击可以还原原始大小。
 
 
 How to use ?
 ============
-1. "ARLineChar" folder all the files can be added to the project .
+1. "ARLineChart" folder all the files can be added to the project .
 
 2. where it is needed to introduce the header file :
 ```
@@ -55,7 +55,7 @@ self.lineChartView = [[ARLineChartView alloc] initWithFrame: rect dataSource: da
 
 如何使用？
 ========
-1、将“ARLineChar”文件夹内所有文件加入到工程中即可。
+1、将“ARLineChart”文件夹内所有文件加入到工程中即可。
 
 2、在需要的地方引入头文件：
 ```
