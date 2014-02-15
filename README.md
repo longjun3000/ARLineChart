@@ -7,7 +7,8 @@ x -axis and y-axis can zoom in and out , you can scroll , double-click can resto
 ARLineChart是一个iOS的折线图，使用Objective-C编写。适用于需要有双Y轴的应用场景。
 x轴和y轴可以放大和缩小，可以滚动，双击可以还原原始大小。
 
-![image](https://github.com/longjun3000/ARLineChart/blob/master/Screenshot01.png)
+![image](https://raw2.github.com/longjun3000/ARLineChart/master/Screenshot01.png)
+![image](https://raw2.github.com/longjun3000/ARLineChart/master/Screenshot02.png)
 
 How to use ?
 ============
