@@ -31,7 +31,7 @@ srand(time(NULL)); //Random seed
 
 for (int i=0; i< 11; i++) {
 
-	RLLineChartItem *item = [[RLLineChartItem alloc] init];
+	ARLineChartItem *item = [[ARLineChartItem alloc] init];
 	double randVal;
 
 	randVal = rand() /((double)(RAND_MAX)/distanceMax) + distanceMin;
@@ -76,7 +76,7 @@ srand(time(NULL)); //Random seed
 
 for (int i=0; i< 11; i++) {
 
-	RLLineChartItem *item = [[RLLineChartItem alloc] init];
+	ARLineChartItem *item = [[ARLineChartItem alloc] init];
 	double randVal;
 
 	randVal = rand() /((double)(RAND_MAX)/distanceMax) + distanceMin;
